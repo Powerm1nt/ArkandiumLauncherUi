@@ -1,0 +1,49 @@
+@font-face {
+    src: url("agero.ttf");
+}
+
+#pane {
+	    -fx-background-image: url("2.jpg");
+	    -fx-background-repeat: stretch;
+	    -fx-background-position: center;
+	    -fx-background-size: 115.0%;
+}
+
+#button, #flds{
+		-fx-background-color:  rgba(99.0, 96.0, 96.0, 0.493);
+		-fx-text-fill: WHITE;
+		-fx-prompt-text-fill: rgb(156, 156, 156);
+			-fx-font-family: "agero";
+
+}
+
+#button:hover{
+		-fx-effect: dropshadow(three-pass-box, rgba(0.0,0.0,0.0,0.8), 10.0, 0.0, 0.0, 0.0);
+}
+#hdIco {
+		-fx-effect: dropshadow(three-pass-box, rgba(0.0,0.0,0.0,0.8), 10.0, 0.0, 0.0, 0.0);
+		-fx-background-radius: 5.0;
+}
+
+#header {
+	-fx-background-color:  rgba(0, 0, 0, 0.530);
+}
+
+
+.title .textA{
+	-fx-font-family: "agero";
+	-fx-text-fill: white; 
+	-fx-font-size: 26;
+}
+
+.title .textB{
+	-fx-font-family: "agero";
+	-fx-text-fill: white;
+	-fx-font-size: 17;
+}
+
+.btnConnect{
+	-fx-font-family: "agero";
+	-fx-text-fill: white;
+	-fx-font-size: 30;
+}
